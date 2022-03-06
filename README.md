@@ -86,7 +86,6 @@ k) RAINF: Rainfall in millimeters per hour
 
 ## Construct the data for the regressions
 
-### Regressions Data set 
 `07_scripts/01_ConstructionRegressionData` geographically merges the hearing and pollution information through inverse distance weighting. 
 
 The script creates the file "data_reg.rds." and is the data set I use for the regressions. 
